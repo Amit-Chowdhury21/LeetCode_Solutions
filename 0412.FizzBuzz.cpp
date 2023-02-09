@@ -31,9 +31,9 @@ Approach
 Solved using simple for loop and if else statement.
 
 Complexity
-Time complexity: O(n)O(n)O(n)
+Time complexity: O(n)
 
-Space complexity: O(n)O(n)O(n)
+Space complexity: O(n)
 
 Code */
 class Solution {
