@@ -28,15 +28,15 @@ Each element in the array appears twice except for one element which appears onl
 
 SOLUTION----->>>
 
-Intuition
+Intuition:
 Step 1: Create a Hash table of the length (max value - min value) of nums vector.
 Step 2: Using the value of each element of nums as a index value of the hash table. If at that location the value was 0 then add 1 else subtract 1.
 Step 3: Check the hash table with value 1 as it has occured only once in the given vector nums. So get the index of the value 1 in the hash table and by adjusting with min value, return the actual element value that is only single number in nums. Hence the problem names Single Number.
 
-Approach
+Approach:
 Solved using SIMPLE for loop with if else statement.
 
-Complexity
+Complexity:
 Time complexity: O(n)O(n)O(n)
 Beats almost 80% submissions in Runtime.
 
@@ -61,7 +61,7 @@ public:
             else
                 store[nums[i]-mini] -= 1;   // else subtract 1 as the value has occured more than once 
         }
-
+	    
         auto it2 = minmax_element(store.begin(), store.end());  // find minimum and maximum value of the hash table
 
         int max_indx = distance(store.begin(), it2.second);  // get the index value of the single occured number in the hash table
