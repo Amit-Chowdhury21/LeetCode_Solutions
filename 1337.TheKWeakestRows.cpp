@@ -1,7 +1,8 @@
 /*
 ******************************************** 1337. The K Weakest Rows in a Matrix *******************************************
 
-You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing civilians). The soldiers are positioned in front of the civilians. That is, all the 1's will appear to the left of all the 0's in each row.
+You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing civilians). 
+The soldiers are positioned in front of the civilians. That is, all the 1's will appear to the left of all the 0's in each row.
 
 A row i is weaker than a row j if one of the following is true:
 
@@ -54,7 +55,7 @@ n == mat[i].length
 1 <= k <= m
 matrix[i][j] is either 0 or 1.
 
-Approach
+Approach:
 Solved using simple for loop and if statement
 
 Code */
