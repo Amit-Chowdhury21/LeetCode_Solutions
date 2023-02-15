@@ -5,7 +5,6 @@
 Given an integer num, return the number of steps to reduce it to zero.
 
 In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
-
  
 Example 1:
 
@@ -32,15 +31,13 @@ Example 3:
 Input: num = 123
 Output: 12
  
-
 Constraints:
-
 0 <= num <= 10^6
 
-Approach
+Approach:
 Solved using simple for loop and if else statement.
 
-Complexity
+Complexity:
 Time complexity: O(n)O(n)O(n)
 
 Space complexity: O(n)O(n)O(n)
