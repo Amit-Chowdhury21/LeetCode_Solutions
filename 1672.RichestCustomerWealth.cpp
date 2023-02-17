@@ -43,10 +43,9 @@ public:
     int maximumWealth(vector<vector<int>>& accounts) {
 
     int wealthy=0,sums;
-
     int m = accounts.size() , n= accounts[0].size() ;
 
-  for(int i=0; i<m; i++)
+    for(int i=0; i<m; i++)
     {
       sums=0;
       for(int j=0 ; j<n; j++)
@@ -59,7 +58,6 @@ public:
             wealthy = sums;
           }     
     }
-
     return wealthy;       
     }
 };
